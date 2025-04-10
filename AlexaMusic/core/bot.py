@@ -39,12 +39,11 @@ class AlexaBot(Client):
         self.mention = get_me.mention
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "» Mehmet kullanılmaya mahkümdur..."
+                config.LOG_GROUP_ID, "» Bot başlatılıyor..."
             )
         except:
             LOGGER(__name__).error(
-                "Bot has failed to access the log Group. Make sure that you have added your bot to your log channel and promoted as admin!"
-            )
+               "Bot, log grubuna erişim sağlayamadı. Botunuzu log kanalınıza eklediğinizden ve admin olarak atadığınızdan emin olun!")
             sys.exit()
         a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
         if a.status != ChatMemberStatus.ADMINISTRATOR:
