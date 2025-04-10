@@ -74,7 +74,7 @@ class Userbot(Client):
             try:
                 await self.one.send_message(
                     config.LOG_GROUP_ID,
-                    "Mehmet sikilmeye mahkümdür.",
+                    "Asistan başlatıldı.",
                 )
             except:
                 LOGGER(__name__).error(
