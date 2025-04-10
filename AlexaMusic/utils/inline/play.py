@@ -43,8 +43,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"🔮 𝙆𝙐𝙈𝙎𝘼𝙇 𝘽𝙊𝙏𝙎 🔮", 
-                url=f"https://t.me/the_team_kumsal"
+                text=f"Duyuru", 
+                url=f"https://t.me/AcelyaDuyuruul"
             )
         ],
         [
@@ -75,7 +75,7 @@ def telegram_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url=f"https://t.me/Jankari_Ki_Duniya"),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url=f"https://t.me/AcelyaDuyuruu"),
         ],
         [
             InlineKeyboardButton(
