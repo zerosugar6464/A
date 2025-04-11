@@ -21,7 +21,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "27419569"))
 API_HASH = getenv("API_HASH", "191b4c03782dd4389bbc5d772bd251d4")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAGvo9tg6_sDMJ5Ihmlb2iKO_aZUpy_J8Qc")
+BOT_TOKEN = getenv("BOT_TOKEN", "7556612843:AAGYOSC2tHl0g5HUMwbSzxgc4Hzl_TQnKWI")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madboy123:Şifreamın@madboy07.r1nef.mongodb.net/?retryWrites=true&w=majority&appName=madboy07")
 
@@ -29,15 +29,15 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002648767940"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "AcelyaMusicBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "bowtasbot")
 
-OWNER_ID = int(getenv("OWNER_ID", "7675940993"))
+OWNER_ID = int(getenv("OWNER_ID", "7263779153"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "7090522217")
+BOT_ID = getenv("BOT_ID", "7556612843")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
