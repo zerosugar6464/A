@@ -1,6 +1,6 @@
 unidecode
 aiofiles
-kurigram
+kurigram==2.1.39
 numpy
 aiofiles
 aiohttp
